@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "planetexplorer" },
+      { name: "description", content: "solar system" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "planetexplorer" },
+      { property: "og:description", content: "solar system" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "planetexplorer" },
+      { name: "twitter:description", content: "solar system" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a586432a-fb88-47cf-80cf-5c8d186beaa5/id-preview-0a7bcc5b--cfec8464-8212-4e8f-ad90-c3ec8c49c761.lovable.app-1778070712883.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a586432a-fb88-47cf-80cf-5c8d186beaa5/id-preview-0a7bcc5b--cfec8464-8212-4e8f-ad90-c3ec8c49c761.lovable.app-1778070712883.png" },
     ],
     links: [
       {
